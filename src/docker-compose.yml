@@ -25,6 +25,5 @@ services:
       - "9080:9080"
     environment:
       RATINGS_SERVICE: http://ratings:8080
-      SERVICE_VERSION: v1
       ENABLE_RATINGS: "true"
       STAR_COLOR: red
